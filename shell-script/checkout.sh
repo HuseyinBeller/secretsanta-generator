@@ -1,1 +1,1 @@
- sh git 'https://github.com/HuseyinBeller/secretsanta-generator.git'
+ git 'https://github.com/HuseyinBeller/secretsanta-generator.git'
