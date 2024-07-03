@@ -1,4 +1,5 @@
 #!/bin/bash
 
 # SonarQube analysis
-dependency-check --scan ./
+dependencyCheck additionalArguments: ' --scan ./', odcInstallation: 'DC'
+            dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
