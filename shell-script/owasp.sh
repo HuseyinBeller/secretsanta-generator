@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# SonarQube analysis
-dependencyCheck additionalArguments: ' --scan ./'
+dependency-check --scan ./ --out ./dependency-check-report.xml
+
 
 
