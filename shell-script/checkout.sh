@@ -1,1 +1,3 @@
- git 'https://github.com/HuseyinBeller/secretsanta-generator.git'
+REPO_URL= 'https://github.com/HuseyinBeller/secretsanta-generator.git''
+
+
