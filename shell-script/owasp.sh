@@ -1,7 +1,5 @@
-#!/bin/bash
-
-# Set the path to Dependency Check CLI
-DEPENDENCY_CHECK_HOME="${WORKSPACE}/dependency-check"
-
-# Perform the OWASP Dependency Check scan
-${DEPENDENCY_CHECK_HOME}/bin/dependency-check.sh --scan ./ --out ./dependency-check-report.xml
+ sh """
+                            curl -L ${DEPENDENCY_CHECK_URL} -o dependency-check.zip
+                            unzip dependency-check.zip -d ${DEPENDENCY_CHECK_HOME}
+                            rm dependency-check.zip
+                        """
