@@ -1,3 +1,3 @@
 
-git clone 'https://github.com/HuseyinBeller/secretsanta-generator.git'
+git branch: 'main', url: 'https://github.com/HuseyinBeller/secretsanta-generator.git'
 
